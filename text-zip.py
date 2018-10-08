@@ -27,7 +27,6 @@ def extract(filename, verbose=False):
         print('Compression ratio: {0:0.2f}'.format(len(text)/len(file)))
 
 if __name__ == '__main__':
-
     parser = argparse.ArgumentParser()
     parser.add_argument('filename', help='filename to compress or extract')
     parser.add_argument('-c', '--compress', help='compress the file', action='store_true')
